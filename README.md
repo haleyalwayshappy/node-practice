@@ -157,4 +157,6 @@ node.js는 굳이 버젼관리를 할 필요없는 파일들이 좀 있다.
 필요없는 파일/폴더는 
 - .cache/
 - dist/
-- node_modules/
+- node_modules/ 
+이친구들을 .gitignore파일을 생성 후 
+한줄에 하나씩 적어주면된다. 그다음 저장 그다음 git status를 보면 위의 세가지가 제외된 것이 보일것이다. 
