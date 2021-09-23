@@ -1,13 +1,11 @@
-const ulEl = document.querySelector('ul')
+//화살표 함수
+//  ()=>{} vs function(){}
 
-for (let i = 0; i < 10; i += 1) {
-  const li = document.createElement('li')
-  li.textContent = `list-${i+1}`
-  if (i % 2=== 0) {
-    li.addEventListener('click', function () {
-      console.log(li.textContent)
-    })
-  }
-  ulEl.appendChild(li)
+const double = function (x) {
+  return x * 2;
+};
+console.log("double: ", double(7));
 
-}
+const doubleArrow = (x) => x * 2;
+
+console.log("doubleArrow :", doubleArrow(7));
