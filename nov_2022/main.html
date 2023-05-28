@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/77ad8525ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/style.scss" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi" aria-hidden="true"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg" aria-hidden="true"></i>
+        <i class="fas fa-bolt" aria-hidden="true"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fa fa-search" aria-hidden="true"> </i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-lg" aria-hidden="true"> </i>
+        </span>
+        <span>
+          <i class="fas fa-cog fa-lg" aria-hidden="true"> </i>
+        </span>
+      </div>
+    </header>
+    <a href="#" id="friends-display-link">
+      <i class="fas fa-info-circle" aria-hidden="true"> </i>
+      "Friends' Names Display"
+      <i class="fas fa-chevron-right faxs" aria-hidden="true"> </i>
+    </a>
+    <main class="" friends-screen>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://via.placeholder.com/120"
+            alt=""
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Haley</h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Chanel</span>
+          <i class="fas fa-chevron-up fa-xs" aria-hidden="true"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://via.placeholder.com/100" alt="" class="user-component__avatar user-component__avatar--sm"/>
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold"> Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div><span>2</span><i class="fas fa-chevron-right fa-xs"></i></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
